@@ -6,16 +6,16 @@ const supportEmail =
 function Privacy() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#bf1e20] to-[#bf1e20] text-white">
-      <div className="container mx-auto px-8 py-12">
-        <div className="max-w-4xl mx-auto bg-white/10 backdrop-blur-sm rounded-lg shadow-2xl p-8">
-          <h1 className="text-5xl font-bold mb-8 text-center bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div className="max-w-4xl mx-auto bg-white/10 backdrop-blur-sm rounded-lg shadow-2xl p-4 sm:p-6 lg:p-8">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 text-center bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
             Privacy Policy for SirFlixAlot Entertainment AI Agent
           </h1>
-          <div className="text-left space-y-6">
-            <p className="text-lg italic text-gray-200">
+          <div className="text-left space-y-4 sm:space-y-6">
+            <p className="text-base sm:text-lg italic text-gray-200">
               Effective Date: October 13, 2025
             </p>
-            <p className="text-lg leading-relaxed">
+            <p className="text-base sm:text-lg leading-relaxed">
               Thank you for using the SirFlixAlot Entertainment AI Agent
               ("App"). This Privacy Policy explains how we collect, use,
               disclose, and safeguard your information when you use our App,
@@ -23,14 +23,14 @@ function Privacy() {
               and recommendations. By using the App, you agree to the collection
               and use of information in accordance with this policy.
             </p>
-            <section className="border-l-4 border-white pl-6">
-              <h2 className="text-2xl font-semibold mb-4 text-yellow-300">
+            <section className="border-l-4 border-white pl-4 sm:pl-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-yellow-300">
                 1. Information We Collect
               </h2>
-              <h3 className="text-xl font-medium mb-2 text-gray-200">
+              <h3 className="text-lg sm:text-xl font-medium mb-2 text-gray-200">
                 Personal Information
               </h3>
-              <p className="mb-4 leading-relaxed">
+              <p className="mb-4 leading-relaxed text-sm sm:text-base">
                 WhatsApp Data: We collect messages, user IDs, and conversation
                 history sent through WhatsApp to provide movie recommendations
                 and maintain conversation context. This includes any personal
@@ -38,28 +38,28 @@ function Privacy() {
                 watchlists).
               </p>
 
-              <h3 className="text-xl font-medium mb-2 text-gray-200">
+              <h3 className="text-lg sm:text-xl font-medium mb-2 text-gray-200">
                 Non-Personal Information
               </h3>
-              <p className="mb-4 leading-relaxed">
+              <p className="mb-4 leading-relaxed text-sm sm:text-base">
                 Usage Data: We collect data on how you interact with the App,
                 such as features used, search queries, and device information
                 (e.g., device type, operating system), to improve functionality
                 and provide better recommendations.
               </p>
-              <p className="mb-4 leading-relaxed">
+              <p className="mb-4 leading-relaxed text-sm sm:text-base">
                 Movie Data: Information about movies, ratings, and
                 recommendations based on your interactions.
               </p>
             </section>
-            <section className="border-l-4 border-white pl-6">
-              <h2 className="text-2xl font-semibold mb-4 text-yellow-300">
+            <section className="border-l-4 border-white pl-4 sm:pl-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-yellow-300">
                 2. How We Use Your Information
               </h2>
-              <p className="mb-4 leading-relaxed">
+              <p className="mb-4 leading-relaxed text-sm sm:text-base">
                 We use the collected information for the following purposes:
               </p>
-              <ul className="list-disc list-inside space-y-2 text-gray-100">
+              <ul className="list-disc list-inside space-y-2 text-gray-100 text-sm sm:text-base">
                 <li>
                   To provide personalized movie recommendations and search
                   results.
@@ -75,15 +75,15 @@ function Privacy() {
                 <li>To ensure security and prevent abuse of the service.</li>
               </ul>
             </section>
-            <section className="border-l-4 border-white pl-6">
-              <h2 className="text-2xl font-semibold mb-4 text-yellow-300">
+            <section className="border-l-4 border-white pl-4 sm:pl-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-yellow-300">
                 3. Sharing of Information
               </h2>
-              <p className="mb-4 leading-relaxed">
+              <p className="mb-4 leading-relaxed text-sm sm:text-base">
                 We do not sell, trade, or otherwise transfer your personal
                 information to third parties, except in the following cases:
               </p>
-              <ul className="list-disc list-inside space-y-2 text-gray-100">
+              <ul className="list-disc list-inside space-y-2 text-gray-100 text-sm sm:text-base">
                 <li>
                   Legal Requirements: We may disclose information if required by
                   law, to protect our rights, or in response to a legal request.
@@ -94,11 +94,11 @@ function Privacy() {
                 </li>
               </ul>
             </section>
-            <section className="border-l-4 border-white pl-6">
-              <h2 className="text-2xl font-semibold mb-4 text-yellow-300">
+            <section className="border-l-4 border-white pl-4 sm:pl-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-yellow-300">
                 4. Data Security
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-sm sm:text-base">
                 We implement appropriate technical and organizational measures
                 to protect your information against unauthorized access,
                 alteration, disclosure, or destruction. However, no method of
@@ -106,15 +106,15 @@ function Privacy() {
                 guarantee absolute security.
               </p>
             </section>
-            <section className="border-l-4 border-white pl-6">
-              <h2 className="text-2xl font-semibold mb-4 text-yellow-300">
+            <section className="border-l-4 border-white pl-4 sm:pl-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-yellow-300">
                 5. Your Rights
               </h2>
-              <p className="mb-4 leading-relaxed">
+              <p className="mb-4 leading-relaxed text-sm sm:text-base">
                 Depending on your location, you may have the following rights
                 regarding your data:
               </p>
-              <ul className="list-disc list-inside space-y-2 text-gray-100">
+              <ul className="list-disc list-inside space-y-2 text-gray-100 text-sm sm:text-base">
                 <li>
                   Access and Correction: Request access to or correction of your
                   personal information.
@@ -124,55 +124,55 @@ function Privacy() {
                   obligations.
                 </li>
               </ul>
-              <p className="mt-4 leading-relaxed">
+              <p className="mt-4 leading-relaxed text-sm sm:text-base">
                 To exercise these rights, contact us at {supportEmail}.
               </p>
             </section>
-            <section className="border-l-4 border-white pl-6">
-              <h2 className="text-2xl font-semibold mb-4 text-yellow-300">
+            <section className="border-l-4 border-white pl-4 sm:pl-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-yellow-300">
                 6. Children's Privacy
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-sm sm:text-base">
                 The App is not intended for children under 13. We do not
                 knowingly collect personal information from children under 13.
                 If we become aware of such collection, we will delete it
                 promptly.
               </p>
             </section>
-            <section className="border-l-4 border-white pl-6">
-              <h2 className="text-2xl font-semibold mb-4 text-yellow-300">
+            <section className="border-l-4 border-white pl-4 sm:pl-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-yellow-300">
                 7. Changes to This Privacy Policy
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-sm sm:text-base">
                 We may update this Privacy Policy from time to time. We will
                 notify you of any changes by posting the new policy on this page
                 and updating the effective date. Your continued use of the App
                 after changes constitutes acceptance of the updated policy.
               </p>
             </section>
-            <section className="border-l-4 border-white pl-6">
-              <h2 className="text-2xl font-semibold mb-4 text-yellow-300">
+            <section className="border-l-4 border-white pl-4 sm:pl-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-yellow-300">
                 8. Contact Us
               </h2>
-              <p className="mb-4 leading-relaxed">
+              <p className="mb-4 leading-relaxed text-sm sm:text-base">
                 If you have any questions about this Privacy Policy, please
                 contact us at:
               </p>
-              <div className="bg-white/20 rounded-lg p-4 space-y-2">
-                <p>
+              <div className="bg-white/20 rounded-lg p-3 sm:p-4 space-y-2">
+                <p className="text-sm sm:text-base">
                   <strong>Email:</strong> {supportEmail}
                 </p>
               </div>
-              <p className="mt-4 leading-relaxed">
+              <p className="mt-4 leading-relaxed text-sm sm:text-base">
                 By using the SirFlixAlot Entertainment AI Agent, you acknowledge
                 that you have read and understood this Privacy Policy.
               </p>
             </section>
           </div>
-          <div className="text-center mt-12">
+          <div className="text-center mt-8 sm:mt-12">
             <a
               href="/"
-              className="inline-block px-8 py-3 bg-white text-[#bf1e20] font-semibold rounded-full hover:bg-gray-200 transition duration-300 shadow-lg"
+              className="inline-block px-6 sm:px-8 py-3 bg-white text-[#bf1e20] font-semibold rounded-full hover:bg-gray-200 transition duration-300 shadow-lg text-sm sm:text-base"
             >
               Back to Home
             </a>

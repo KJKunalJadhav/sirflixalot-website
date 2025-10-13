@@ -9,35 +9,35 @@ import Contact from './pages/Contact';
 
 function Home() {
   return (
-    <div className="container mx-auto h-screen bg-[#bf1e20] flex flex-col items-center justify-center text-white">
+    <div className="container mx-auto min-h-screen bg-[#bf1e20] flex flex-col items-center justify-center text-white px-4">
       <header></header>
 
-      <div className="flex flex-col items-center justify-center ">
-        <h1 className="font-extrabold mb-4 text-6xl text-white text-outline-xl">
+      <div className="flex flex-col items-center justify-center w-full max-w-md">
+        <h1 className="font-extrabold mb-4 text-4xl sm:text-5xl md:text-6xl text-white text-outline-xl text-center">
           WELCOME
         </h1>
-        <h1 className="font-extrabold mb-4 text-6xl text-white text-outline-xl">
+        <h1 className="font-extrabold mb-4 text-4xl sm:text-5xl md:text-6xl text-white text-outline-xl text-center">
           To
         </h1>
-        <div className="flex flex-row justify-center items-center">
+        <div className="flex flex-row justify-center items-center mb-4">
           <img
             src={logo}
             alt="SirFlixAlot Logo"
-            className="w-[267px] h-[400px] p-6 "
+            className="w-48 h-72 sm:w-64 sm:h-96 md:w-[267px] md:h-[400px] p-4 sm:p-6"
           />
         </div>
-        <p className="text-center text-outline text-2xl mb-4">
+        <p className="text-center text-outline text-lg sm:text-xl md:text-2xl mb-4">
           Your WhatsApp AI Entertainment Agent
         </p>
-        <p className="text-center text-outline mb-6 text-xl">
+        <p className="text-center text-outline mb-6 text-base sm:text-lg md:text-xl">
           Powered by TheMovieDB.org
           <br />
           Get spot-on recommendations in your chats
         </p>
       </div>
 
-      <div className="footer mt-8">
-        <ul className="flex flex-wrap justify-center space-x-6 text-sm">
+      <div className="footer mt-8 w-full max-w-md">
+        <ul className="flex flex-wrap justify-center space-x-2 sm:space-x-4 md:space-x-6 text-sm">
           <li>
             <Link to="/about" className="hover:underline">
               About Us
