@@ -1,5 +1,8 @@
 import React from 'react';
 
+const supportEmail =
+  import.meta.env.VITE_SUPPORT_EMAIL || 'support@sirflixalot.com';
+
 function Contact() {
   return (
     <div className="container mx-auto h-screen bg-[#bf1e20] flex flex-col items-center justify-center text-white p-8">
@@ -8,7 +11,7 @@ function Contact() {
         <p className="mb-4">
           Have questions about SirFlixAlot? Reach out to us!
         </p>
-        <p className="mb-4">Email: support@sirflixalot.com</p>
+        <p className="mb-4">Email: {supportEmail}</p>
         <p className="mb-4">
           WhatsApp: Add our bot directly in WhatsApp for support.
         </p>
