@@ -39,7 +39,8 @@ function Home() {
           </div>
         </header>
         <p className="text-center text-outline text-lg sm:text-xl md:text-2xl mb-4">
-          Your AI Entertainment Agent for Movies and Shows
+          Your Movie and TV Show Recommendation and Watchlist Management AI
+          Agent
         </p>
 
         {/* QR Code */}
