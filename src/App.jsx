@@ -39,8 +39,18 @@ function Home() {
           </div>
         </header>
         <p className="text-center text-outline text-lg sm:text-xl md:text-2xl mb-4">
-          Your Movie and TV Show Recommendation and Watchlist Management AI
-          Agent
+          Your Entertainment Companion
+        </p>
+
+        <p className="text-center  text-xs mb-4">
+          Want to search for a movie or show? Just ask
+        </p>
+        <p className="text-center text-xs mb-4">
+          Want to add it to your watchlist? Just tell
+        </p>
+        <p className="text-center text-xs mb-4">
+          Want to add YouTube video or Spotify podcast to watchlist? Just send
+          the link.
         </p>
 
         {/* QR Code */}
